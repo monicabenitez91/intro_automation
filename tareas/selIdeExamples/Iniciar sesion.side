@@ -1,0 +1,112 @@
+{
+  "id": "1d372b6d-cbc3-4239-9d02-338351ad688d",
+  "version": "2.0",
+  "name": "Canción de sinatra",
+  "url": "https://evening-bastion-49392.herokuapp.com",
+  "tests": [{
+    "id": "bce5c513-77b9-452e-b4a1-e484d588c2be",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "a16b0c1c-b7c0-4755-8610-68d8ffcc8cc6",
+    "name": "Login",
+    "commands": [{
+      "id": "408a2eec-7ba1-4bea-8787-4ca819ac0063",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74aa7377-dedd-441f-a819-243c0abc5154",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2978aee-4488-4b67-9b05-ccb6e6bbcfce",
+      "comment": "",
+      "command": "click",
+      "target": "css=footer font > font",
+      "targets": [
+        ["css=footer font > font", "css:finder"],
+        ["xpath=//footer/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "087b2c5c-2aed-4ffe-9917-d7a4a2f82cf5",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ecd62be-c3bd-4f4e-859a-a4db8399a461",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "frank"
+    }, {
+      "id": "91431e57-15cb-459b-a2e2-035558ccf713",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc45f134-53da-446a-ac63-846e73845b67",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "sinatra"
+    }, {
+      "id": "273bb7a3-e3cd-4d22-83ad-91dd7c01f433",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Iniciar sesión']", "xpath:attributes"],
+        ["xpath=//font/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "86429318-d34a-4ab3-ae71-d7d9484f8b3f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bce5c513-77b9-452e-b4a1-e484d588c2be"]
+  }],
+  "urls": ["https://evening-bastion-49392.herokuapp.com/"],
+  "plugins": []
+}
